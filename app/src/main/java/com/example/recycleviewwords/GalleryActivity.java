@@ -19,12 +19,13 @@ public class GalleryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gallery);
+        setContentView(R.layout.recipe_detail);
 
         //getActionBar().setTitle(getIntent().getStringExtra("recipe_title"));
 
         Log.d(TAG, "onCreate: started.");
 
+        getSupportActionBar().setTitle(R.string.title_recipe_list);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getIncomingIntent();
     }

@@ -17,6 +17,7 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        getSupportActionBar().setTitle(R.string.title_recipe_list);
 
         media = new MediaPlayer();
         media = MediaPlayer.create(this, R.raw.intro);
