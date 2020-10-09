@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 /**
  * Created by User on 1/2/2018.
@@ -26,6 +27,9 @@ public class GalleryActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
+
+        //getActionBar().setTitle(getIntent().getStringExtra("recipe_title"));
+
         Log.d(TAG, "onCreate: started.");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

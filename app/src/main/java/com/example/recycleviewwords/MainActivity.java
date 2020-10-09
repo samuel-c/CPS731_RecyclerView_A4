@@ -103,9 +103,13 @@ public class MainActivity extends AppCompatActivity {
     private void initializeRecyclerView(){
         Log.d(TAG, "initializeRecyclerView has started.");
         RecyclerView recyclerView = findViewById((R.id.recyclerv_view));
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, recipeTitle, recipeDesc, recipeText,recipeImage);
+        /*
+        RecyclerViewAdapter adapter = new RecyclerViewAdapter(this, recipeTitle, recipeDesc,
+                recipeText,recipeImage, true);
         recyclerView.setAdapter(adapter);
         recyclerView.addItemDecoration(new DividerItemDecoration(recyclerView.getContext(), DividerItemDecoration.VERTICAL));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+         */
     }
 }

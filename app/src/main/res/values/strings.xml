@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">Recycler View</string>
+    <string name="app_name">Master Detail Flow</string>
     <string name="textview">TextView</string>
+    <string name="title_recipe_list">Recipes</string>
+    <string name="title_recipe_detail">Recipe Detail</string>
 </resources>
