@@ -1,7 +1,5 @@
 package com.example.recycleviewwords;
 
-import android.app.ActionBar;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -11,11 +9,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-/**
- * Created by User on 1/2/2018.
- */
 
 public class GalleryActivity extends AppCompatActivity {
 

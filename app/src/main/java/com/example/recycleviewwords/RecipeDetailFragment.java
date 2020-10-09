@@ -15,12 +15,6 @@ import android.widget.TextView;
 
 import com.example.recycleviewwords.dummy.DummyContent;
 
-/**
- * A fragment representing a single Recipe detail screen.
- * This fragment is either contained in a {@link RecipeListActivity}
- * in two-pane mode (on tablets) or a {@link RecipeDetailActivity}
- * on handsets.
- */
 public class RecipeDetailFragment extends Fragment {
     /**
      * The fragment argument representing the item ID that this fragment
@@ -49,12 +43,7 @@ public class RecipeDetailFragment extends Fragment {
             // arguments. In a real-world scenario, use a Loader
             // to load content from a content provider.
             mItem = DummyContent.ITEM_MAP.get(getArguments().getString(ARG_ITEM_ID));
-
-            Activity activity = this.getActivity();
-            CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
-            if (appBarLayout != null) {
-                appBarLayout.setTitle(mItem.recipeTitle);
-            }
+            
         }
     }
 
